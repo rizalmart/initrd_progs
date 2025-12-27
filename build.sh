@@ -12,7 +12,7 @@ export TARGET_TRIPLET=
 
 ARCH_LIST="i686 x86_64 arm aarch64"
 
-SITE=https://musl.cc
+SITE=http://musl.cc
 
 X86_CC=i686-linux-musl-cross.tgz
 X86_64_CC=x86_64-linux-musl-cross.tgz
