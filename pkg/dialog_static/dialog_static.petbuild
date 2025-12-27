@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. ../../func
+. ../func
 . ../libs.sh # ncurses
 
 URL=https://invisible-mirror.net/archives/dialog
