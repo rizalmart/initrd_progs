@@ -59,7 +59,7 @@ case "$1" in release|tarball) #this contains the $PREBUILT_BINARIES
 		$0 -nord -auto -arch $2
 		pkgx=initrd_progs-${2}-$(date "+%Y%m%d")-static.tar.xz
 	else
-		$0 -nord -auto -arch $TARGET_HOST
+		$0 -nord -auto -arch $TARGET_ARCH
 		pkgx=initrd_progs-$(date "+%Y%m%d")-static.tar.xz
 	fi
 	echo -e "\n\n\n*** Creating $pkgx"
